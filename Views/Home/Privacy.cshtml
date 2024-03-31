@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        span {
+            color: #a08679;
+            margin-left: 20px;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body{
+            background: white;
+        }
+
+        .heading{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .heading h1{
+            font-size: 50px;
+            color: #000;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .heading h1::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            display: block;
+            margin: 0 auto;
+            background-color: #a08679;
+        }
+
+        .heading p{
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 35px;
+        }
+
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px 20px;
+        }
+
+        .about{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .about-image{
+            flex: 1;
+            margin-right: 40px;
+            overflow: hidden;
+        }
+
+        .about-image img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.5s ease;
+        }
+
+        .about-image:hover img{
+            transform: scale(1.2);
+        }
+
+        .about-content{
+            flex:1;
+        }
+
+        .
+
+        .about-content p{
+            font-size: 30px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>Quality Handcrafted Products</p>
+    </div>
+
+    <div class="container">
+        <section class="about">
+            <div class="about-image">
+                <img src="/images/AB1.jpg" alt=" Images1">
+            </div>
+            <div class="about-content">
+                <h1>Khumalo<span>Craft</span></h1>
+                <p>
+                    Welcome to KhumaloCraft Emporium, your premier destination for handcrafted treasures from artisans around the globe. 
+                    Founded by visionary entrepreneur James Khumalo, our platform is dedicated to connecting artisans with a discerning 
+                    audience passionate about authentic craftsmanship.
+                </p>
+
+                <h1>Our<span>Story</span></h1>
+                <p>
+                    At KhumaloCraft Emporium, our journey began with James Khumalo's vision to create a global e-commerce 
+                    platform showcasing the finest handcrafted products. Through perseverance and dedication, we've established 
+                    a platform that celebrates cultural diversity and supports artisans in sharing their craft with the world.
+                </p>
+
+                <h1>Our<span>Values</span></h1>
+                <p>
+                    Our core values are rooted in authenticity, craftsmanship, and cultural preservation.
+                    We believe in the power of handmade creations to tell stories, evoke emotions, and enrich lives. 
+                    Every product featured on our platform reflects these values and embodies the spirit of artisanal excellence.
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+ 
+
+</body>
+</html>
